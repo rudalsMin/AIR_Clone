@@ -225,3 +225,53 @@
 	background: #00256c;
     color: #fff;
 }
+.gnb-book_buttonL{
+	font-size: 21.6px;
+    font-weight: 400;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none !important;
+    color: rgb(0, 0, 0);
+    transform: translate(593px, -85px);
+    height: 101px;
+    width: 130px;
+    border-width: 0;
+    border-color: #4771bf;
+    background: #ffffff;
+    position: absolute;
+}
+.gnb-travel_buttonL {
+    font-size: 21.6px;
+    font-weight: 400;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none !important;
+    color: rgb(0, 0, 0);
+    transform: translate(735px, -85px);
+    height: 101px;
+    width: 130px;
+    border-width: 0;
+    border-color: #4771bf;
+    background: #ffffff;
+    position: absolute;
+}
+.gnb-skypass_buttonL {
+    font-size: 21.6px;
+    font-weight: 400;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none !important;
+    color: rgb(0, 0, 0);
+    transform: translate(901px, -85px);
+    height: 101px;
+    width: 130px;
+    border-width: 0;
+    border-color: #4771bf;
+    background: #ffffff;
+    position: absolute;
+}
+.listItem{
+	position: relative;
+    left: -8px;
+    transform: translateY(1px);
+}

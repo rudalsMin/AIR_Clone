@@ -145,6 +145,30 @@
     color: #000000;
     transform: translate(337px, 3px);
 }
+.search_btnM{
+	transform: translate(429px, -33px);
+    cursor: pointer;
+    border: 1px solid rgb(5, 23, 102);
+    height: 40px;
+    width: 230px;
+    font-size: 4px;
+    border-radius: 9px;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    padding: 1px 19px;
+}
+.search_btnM::placeholder {
+    font-size: 14px; /* 원하는 크기로 변경 */
+    color: gray; /* placeholder의 색상도 변경 가능 */
+   	
+}
+.listItemM{
+	position: relative;
+    left: -4px;
+    transform: translateY(9px);
+}
+
 
 .step1_svg{
 	background: #fff url(step-agree-active.svg) no-repeat center center;

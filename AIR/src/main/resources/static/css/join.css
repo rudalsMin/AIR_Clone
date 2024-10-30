@@ -165,8 +165,8 @@
     height: 4rem;
     width: 9rem;
     color: #00256c;
-    transform: translate(340px, -66px);
-    position: fixed;
+    transform: translate(340px, -6px);
+    position: relative;
 }
 .agreeF{
 	font-size: 1rem;
@@ -399,4 +399,9 @@
 .btnSubmit:hover{
 	background: #00256c;
     color: #fff;
+}
+.listItemJ {
+    position: relative;
+    left: -8px;
+    transform: translateY(-41px);
 }

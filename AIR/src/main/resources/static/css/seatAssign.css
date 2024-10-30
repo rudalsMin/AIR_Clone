@@ -69,7 +69,7 @@ body {
     padding: 17px 587px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    transform: translate(738px, -287px);
+    transform: translate(738px, -198px);
 }
 .planT {
  	transform: translate(-533px, 5px);
@@ -530,7 +530,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    transform: translate(-1077px, -500px);
+    transform: translate(-1077px, -348px);
     border: 1px solid #d9dbe1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 1rem;
@@ -734,6 +734,7 @@ body {
     transform: translate(106px, 488px);
     position: fixed;
     z-index: 10;
+    bottom: 488px;
 }
 .blank{
 	height: 5.4rem;

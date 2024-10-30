@@ -5,7 +5,7 @@
 
 .body {
   background-color: #ffffff;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 .header-container {
   background-color: #FCE00C;
@@ -132,6 +132,24 @@
     padding: 1px 19px;
 }
 
+.search_btnD::placeholder {
+  font-size: 14px; /* 원하는 글씨 크기로 변경 */
+  color: #888; /* 글씨 색상도 필요하면 조정 */
+}
+
+
+.submit-btnD{
+	transform: translate(382px, -35px);
+    height: 2.2rem;
+    width: 38px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    border-width: 0 0 0px;
+    top: 50%;
+    left: 50%;
+    position: relative;
+}
 
 
 
@@ -237,6 +255,15 @@
  .wrapper {
     margin-bottom: 20px; /* 각 박스 간의 간격 */
 }
+.wrapper5{
+	position: relative;
+    bottom: 77px;
+}
+.listItemD{
+	position: relative;
+    left: -11px;
+    transform: translateY(-38px);
+}
   
 .flight-svg{
 	transform: translate(89px, 10px);
@@ -274,7 +301,7 @@
     border-style: solid;
     border-color: #bbb9b9;
     border-width: thin;
-    transform: translate(317px, 141px);
+    transform: translate(317px, -31px);
 }
 .container4{
 	width: 1272px;
@@ -284,7 +311,7 @@
     border-style: solid;
     border-color: #bbb9b9;
     border-width: thin;
-    transform: translate(317px, 93px);
+    transform: translate(317px, -171px);
 }
 .container5{
 	max-width: 1240px;
@@ -293,7 +320,8 @@
     padding: 10px 1326px;
     border-radius: 10px;
     box-shadow: .4rem 0 1.6rem #698aa154;
-    transform: translate(-16px, 140px);
+    position: fixed;
+    transform: translate(2px, -178px);
 }
 .totalP{
 	transform: translate(-284px, 25px);
@@ -527,14 +555,13 @@ transform: translate(-221px, 47px);
     display: inline-block;
     text-decoration: none !important;
     color: #00256c;
-    transform: translate(1104px, 36px);
+    transform: translate(1104px, -94px);
     cursor: pointer;
     height: 2.7rem;
     width: 54px;
     text-align: center;
     border-bottom: 3.5px solid;
-    /* border-radius: 0rem; */
-    position: fixed;
+    position: relative;
 }
 .flight-btn{
 	font-size: 1rem;
@@ -543,14 +570,13 @@ transform: translate(-221px, 47px);
     display: inline-block;
     text-decoration: none !important;
     color: #00256c;
-    transform: translate(1166px, 36px);
+    transform: translate(1110px, -94px);
     cursor: pointer;
     height: 2.7rem;
     width: 320px;
     text-align: left;
     border-bottom: 3.5px solid;
-    /* border-radius: 0rem; */
-    position: fixed;
+    position: relative;
 }
 .payment-btn{
 	font-size: 1rem;
@@ -559,14 +585,13 @@ transform: translate(-221px, 47px);
     display: inline-block;
     text-decoration: none !important;
     color: #ccc;
-    transform: translate(1495px, 36px);
+    transform: translate(1116px, -94px);
     cursor: pointer;
     height: 2.7rem;
     width: 54px;
     text-align: center;
     border-bottom: 3.5px solid;
-    /* border-radius: 0rem; */
-    position: fixed;
+    position: relative;
 }
 .SelectDate1{
 	font-size: 1rem;
@@ -678,10 +703,10 @@ transform: translate(-221px, 47px);
     color: #00256c;
     transform: translate(310px, 75px);
     cursor: pointer;
-    width: 100px;
+    width: 101px;
     text-align: center;
     border: none;
-    position: fixed;
+    position: relative;
 }
 /* flightarrival.html */
 .arrival{
@@ -695,7 +720,7 @@ transform: translate(-221px, 47px);
     width: 100px;
     text-align: center;
     border: none;
-    position: fixed;
+    position: relative;
 }
 .nonmember{
 	display: flex;
@@ -749,27 +774,27 @@ transform: translate(-221px, 47px);
     color: #00256c;
 }
 .departureSel{
-	transform: translate(409px, 93px);
+	transform: translate(409px, 36px);
     font-size: 1rem;
     font-weight: 400;
     padding: 0px 0px;
     text-decoration: none !important;
     color: #00256c;
     border: none;
-    position: fixed;
+    position: relative;
 }
 .departureTo{
-	transform: translate(640px, 72px);
+	transform: translate(640px, -11px);
     font-size: 1rem;
     font-weight: 400;
     padding: 0px 0px;
     text-decoration: none !important;
     color: #00256c;
     border: none;
-    position: fixed;
+    position: relative;
 }
 .flightD-svg{
-	transform: translate(601px, 94px);
+	transform: translate(601px, 9px);
     width: 35px;
 }
 .economy_btn{
@@ -786,7 +811,7 @@ transform: translate(-221px, 47px);
     border: 1px solid #d9dbe1;
     cursor: pointer;
     width: 400px;
-    transform: translate(317px, 152px);
+    transform: translate(317px, -1px);
 }
 .prestige_btn{
 	font-weight: bold;
@@ -802,7 +827,7 @@ transform: translate(-221px, 47px);
     border: 1px solid #d9dbe1;
     cursor: pointer;
     width: 400px;
-    transform: translate(754px, 104px);
+    transform: translate(754px, -49px);
 }
 .first_btn{
 	font-weight: bold;
@@ -818,7 +843,7 @@ transform: translate(-221px, 47px);
     border: 1px solid #d9dbe1;
     cursor: pointer;
     width: 400px;
-    transform: translate(1188px, 56px);
+    transform: translate(1188px, -97px);
 }
 .recommend-btn{
 	display: flex;
@@ -830,16 +855,16 @@ transform: translate(-221px, 47px);
     margin: 0px;
     border-radius: 1rem;
     cursor: pointer;
-    transform: translate(319px, 51px);
+    transform: translate(319px, -101px);
     width: 148px;
     padding: 0px 2.8rem 0 1.2rem;
     height: 2.7rem;
-    position: fixed;
+    position: relative;
 }
 .down-svg{
-	transform: translate(418px, 87px);
+	transform: translate(418px, -131px);
     cursor: pointer;
-    position: fixed;
+    position: relative;
     width: 40px;
 }
 
@@ -853,16 +878,16 @@ transform: translate(-221px, 47px);
     margin: 0px;
     border-radius: 1rem;
     cursor: pointer;
-    transform: translate(475px, 51px);
+    transform: translate(475px, -165px);
     width: 148px;
     padding: 0px 2.8rem 0 1.2rem;
     height: 2.7rem;
-    position: fixed;
+    position: relative;
 }
 .down-svg2{
-	transform: translate(575px, 87px);
+	transform: translate(575px, -197px);
     cursor: pointer;
-    position: fixed;
+    position: relative;
     width: 40px;
 }
 html {

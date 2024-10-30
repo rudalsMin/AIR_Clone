@@ -244,3 +244,20 @@
     width: 217px;
     transform: translate(971px, 169px);
 }
+.btn.btn-loginN {
+    display: flex;
+    padding: 7px 30px;
+    justify-content: center;
+    height: 41px;
+    border-radius: 2rem;
+    background: #00256c;
+    color: #fff;
+    font-size: 0.9rem;
+    max-width: 59%;
+    transform: translate(1239px, 5px);
+}
+.listItemN{
+	position: relative;
+    left: -7px;
+    transform: translateY(1px);
+}
